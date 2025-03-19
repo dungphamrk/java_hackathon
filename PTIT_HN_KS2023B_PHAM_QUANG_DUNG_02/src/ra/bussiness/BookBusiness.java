@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class BookBusiness {
     public static void renderBookInfo(){
         if(BookApplication.bookCount==0){
-            System.out.println("Danh sách chống");
+            System.out.println("Danh sách trống");
             return;
         }
         for (int i = 0; i < BookApplication.bookCount; i++) {
