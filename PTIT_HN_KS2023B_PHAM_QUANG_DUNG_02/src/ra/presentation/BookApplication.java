@@ -37,7 +37,11 @@ public class BookApplication {
                 case 5:
                     BookBusiness.findBook(scanner);
                 case 6:
+                    BookBusiness.sortBook(scanner);
+                case 0:
+                    System.exit(0);
                 default:
+                    System.out.println("Vui lòng nhập đúng từ 0 đên 6");
             }
         }while(true);
     }

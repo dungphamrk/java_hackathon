@@ -174,7 +174,7 @@ public class BookBusiness {
             System.out.println("Vui lòng nhập số từ 1 đến 4");
         }while(true);
     }
-    public void sortBook(Scanner scanner){
+    public static void sortBook(Scanner scanner){
         do{
             System.out.println("1.Sắp xếp theo tiêu đề tăng dần/ giảm dần");
             System.out.println("2.Sắp xếp theo giá tăng , giảm dần");
@@ -182,8 +182,10 @@ public class BookBusiness {
             int choice  = scanner.nextInt();
             switch (choice){
                 case 1:
+
                     break;
                 case 2:
+
                     break;
                 default:
                     System.out.println("Vui lòng chọn từ 1 đến 2 , nhập lại");
